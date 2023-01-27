@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Ecogora | About</title>
+
+    <script src="scramble.js"></script>
+
+
+    <link rel="icon" href="images/luffy-smile-rb.png" />
+    <link rel="shortcut icon" href="images/luffy-smile-rb.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css"
+      integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section>
+      <pre>
+<strong>HOME(1)      <span id="top">THIS IS ECOGORA MAN, WELCOME! :)</span>      HOME(1)</strong>
+			                      			           <a href="https://mascarenhasav.github.io/publications">>></a>
+
+<span id="title">NAME</span>
+	Hello! I am <a href="https://mascarenhasav.github.io/index.html"><strong>Alexandre Mascarenhas</strong></a>, please make yourself at home!!
+	But first...
+
+	What is the Answer to the Great Question ... of Life, the Universe
+	and Everything?
+				><a><input id="answer" type="text" style="margin:10px" autofocus required><button type="button" id="ans">Try</button></a>
+	<a style="font-size: 10px; color: #obc;">*Please do not be scared by what you can see.</a>
+		<script>
+		    function displayMessage(){
+			if (document.getElementById) {
+			   w = screen.availWidth;
+			   h = screen.availHeight;
+			}  
+
+			var popW = 300, popH = 430;
+			var leftPos = (w-popW)/2;
+			var topPos = (h-popH)/2;
+			msgWindow = window.open('','popup','width=' + popW + ',height=' + popH + 
+				                         ',top=' + topPos + ',left=' + leftPos + ',       scrollbars=yes');
+
+			if(document.getElementById("answer").value == "42"){
+				msgWindow.document.write 
+				    ('<HTML><HEAD><TITLE>Me</TITLE></HEAD><BODY style="background-color:#000000;"><FORM    NAME="form1">' +
+				    '<img src="./images/me.jpg" height="380"><br/>'+'<font color="green">Well done! :)</font><br/>'+
+				    '<INPUT TYPE="button" VALUE="Thanks" onClick="window.close();"></FORM></BODY>   </HTML>');
+			}else{
+				msgWindow.document.write 
+				    ('<HTML><HEAD><TITLE>Little Luffy</TITLE></HEAD><BODY style="background-color:#000000;"><FORM    NAME="form1">' +
+				    '<img src="./images/luffy-smile.jpg" width="280"><br/><br/>'+'<font color="green">Oh :( This is not the answer. Sry<br/>But you can see the little luffy :)</font><br/>'+
+				    '<INPUT TYPE="button" VALUE="Thanks" onClick="window.close();"></FORM></BODY>   </HTML>');
+			}
+			
+		}
+		var btn = document.getElementById("ans");
+		btn.addEventListener("click", displayMessage);
+	    </script>
+<span id="title">SYNOPSIS</span>
+	<a id="warning_text" style="color: red; font-weight: bold"></a>
+	<textarea cols="65" rows="13"  id="synopsis" style="color:#808080">
+	I am from Brazil and currently working as a maintenance	technician at Sao Paulo Metro and as a Research Assistant at University of Tsukuba.
+
+	As a master's degree student in Computer science at the University of Tsukuba in Japan under the supervision of Professor Claus Aranha, my research interests are in the field of: evolutionary computation, artificial intelligence, neuroscience and  public transport systems.
+
+	My favourite hobbies are skateboarding, playing football travelling by bike and music in general.
+	</textarea>
+	<script>
+	document.getElementById('synopsis').onkeyup = function(){
+		document.getElementById('warning_text').innerHTML = "Yes, you can type here :) but be gentle.";
+		var text_value = document.getElementById('synopsis').value;
+		if((text_value.includes("fuck") === true) || (text_value.includes("suck") === true)      || (text_value.includes("sex") === true)       ||
+		(text_value.includes("bastard") === true) || (text_value.includes("idiot") === true)     || (text_value.includes("ass") === true)       ||
+		(text_value.includes("bitch") === true)   || (text_value.includes("dammit") === true)    || (text_value.includes("shit") === true)      ||
+		(text_value.includes("foda") === true)    || (text_value.includes("idiota") === true)    || (text_value.includes("cuzao") === true)     ||
+		(text_value.includes("porra") === true)   || (text_value.includes("puta ") === true)      || (text_value.includes("caralho") === true)   ||
+		(text_value.includes("buceta") === true)  || (text_value.includes("arrombado") === true) || (text_value.includes("arrombada") === true) ||
+		(text_value.includes("merda") === true)   || (text_value.includes("cu ") === true)){
+			document.getElementById('warning_text').innerHTML = "Please do not use this kind of word :(";
+		}else{
+			document.getElementById('warning_text').innerHTML = "Yes, you can type here :) but be gentle.";
+		}
+	};
+                
+	</script>
+<span id="title">DESCRIPTION</span>
+	<span id="dash">mascarenhasav@(</span>:<span id="dollar">~</span>$ <span id="dollar">Content</span>
+		<a href="https://mascarenhasav.github.io/publications.html">[ /Publications/ ]</a>
+		<a href="https://mascarenhasav.github.io/projects.html">[ /Pojects/ ]</a>
+		<a href="https://mascarenhasav.github.io/blog.html">[ /Blog/ ]</a>
+		<a href="https://mascarenhasav.github.io/terminaltor">[ /Terminaltor/ ]</a>
+
+	<span id="dash">mascarenhasav@(</span>:<span id="dollar">~</span>$ <span id="dollar">Contact</span>
+		<a href="https://github.com/mascarenhasav">[ Github ]</a>
+		<a href="https://linkedin.com/in/alexandre-mascarenhas-2889b890/">[ Linkedin ]</a>
+		<nobr id="email"><a href="#" onclick="emailScramble.initAnimatedBubbleSort();">unscramble</a>
+		 </nobr><script>emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 'mascarenhasav@gmail.com', [3,7,17,5,6,2,10,14,13,15,9,8,11,12,4,16,19,18,1,20]);
+		 </script>
+
+	"<i>...Isso é o reflexo da nossa atualidade, eh o espelho derradeiro</i>
+	<i>da realidade..."</i>   
+	<span id="title">Brown, Mano</span>
+
+<!-- <span id="dollar">$ </span><pre id="cursor">&nbsp;</pre> -->
+</pre>
+    </section>
+  </body>
+</html>
