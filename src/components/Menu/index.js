@@ -17,6 +17,16 @@ const StyledMenu = styled.header`
   width: 100%;
 `;
 
+export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
+  return (
+    <StyledMenu>
+      <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+      <DarkModeSwitch />
+    </StyledMenu>
+  );    
+}
+
+
 /*
 .logo {
   width: 100%;
@@ -28,7 +38,7 @@ const StyledMenu = styled.header`
     fill: ${({ theme }) => theme.textColorBase || "#222222"};
   }
 }
-*/
+
 
 export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
   return (
@@ -42,8 +52,10 @@ export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
   );    
 }
 
+
 function Logo() {
   return (
-    <><img src={Image} alt='img' /><h1 className="text">Bikinin Kaos ID</h1></>  
+     
   )
 }
+*/
