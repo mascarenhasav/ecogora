@@ -87,7 +87,7 @@ function Header() {
         <StyledHeader>
             <StyledBanner bg={config.bg} />
             <section className="user-info">
-                <img src={"https://github.com/mascarenhasav/ecogora/blob/268489b5b806796913f8474f1bfde07c44ff3423/images/logo/logo.png"} />
+                <img src={"https://raw.githubusercontent.com/mascarenhasav/ecogora/268489b5b806796913f8474f1bfde07c44ff3423/images/logo/logo.png"} />
                 <div>
                     <h2>
                         {config.name}
