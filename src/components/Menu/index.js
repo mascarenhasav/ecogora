@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import DarkModeSwitch from "./components/DarkModeSwitch";
 import Search from "./components/Search";
-import Image from "../../../logo/logo.png";
+import Image from "../../../images/logo/logo.png";
 
 const StyledMenu = styled.header`
   display: flex;
@@ -29,6 +29,7 @@ const StyledMenu = styled.header`
   }
 }
 */
+
 export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
   return (
     <StyledMenu>

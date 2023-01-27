@@ -77,7 +77,7 @@ const StyledHeader = styled.div`
     }
 `;
 const StyledBanner = styled.div`
-    background-color: blue;
+    background-color: #1c1c1c;
     background-image: url(${({ bg }) => bg});
     /* background-image: url(${config.bg}); */
     height: 230px;
@@ -87,7 +87,7 @@ function Header() {
         <StyledHeader>
             <StyledBanner bg={config.bg} />
             <section className="user-info">
-                <img src={`https://github.com/${config.github}.png`} />
+                <img src={`https://github.com/${config.github}/ecogora/images/logo/logo.png`} />
                 <div>
                     <h2>
                         {config.name}
